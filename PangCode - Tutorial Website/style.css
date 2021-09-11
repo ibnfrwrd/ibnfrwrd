@@ -1,0 +1,103 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 2000px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    display: flex;
+    width: 100vw;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul {
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+#navbar a img {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container {
+    width: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.parallaximg {
+    position: fixed;
+    z-index: -1;
+    width: inherit;
+    height: 38vh;
+    background-image: url(heroimg.jpg);
+    background-size: contain;
+}
+
+#main {
+    width: inherit;
+    height: 38vh;
+}
+
+#main-header {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #000;
+    text-align: center;
+}
+
+.logoimg {
+    position: absolute;
+    top: 29vh;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoimg {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
+#aboutcompany {
+    position: absolute;
+    top: 60vh;
+}
